@@ -7,6 +7,8 @@ export default defineConfig({
   title: "前端开发笔记",
   description: "A VitePress Site",
   lastUpdated: true,
+  base: '/vitepress-blog/',
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     logo: "/logo.svg",
     // https://vitepress.dev/reference/default-theme-config
