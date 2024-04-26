@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      jarallax:
-        specifier: ^2.2.0
-        version: 2.2.0
       vite-plugin-vitepress-auto-sidebar:
         specifier: ^1.6.4
         version: 1.6.4(eslint@8.57.0)(typescript@5.4.5)(vite@5.2.10)(vitepress@1.1.3(@algolia/client-search@4.23.3)(postcss@8.4.38)(search-insights@2.13.0)(typescript@5.4.5))
@@ -791,9 +788,6 @@ packages:
   isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
 
-  jarallax@2.2.0:
-    resolution: {integrity: sha512-eOMYb1RaCkmPuJ8W1exbLKh5wdhg2D3pLkNmH824xvfH7Mw6swmw9wQklDe0Y+44S3GuJMEZt6P9pUMhdyQOgQ==}
-
   js-yaml@4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
@@ -1026,9 +1020,6 @@ packages:
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
-
-  video-worker@2.2.0:
-    resolution: {integrity: sha512-bjdpCArfD/kvt3HBU2sJUEEFq+6HjIufKXL2NojWswInxalJwR5yh/cgaGismHS8PAe5hx+W0GfrFqlxJTfI/w==}
 
   vite-plugin-vitepress-auto-sidebar@1.6.4:
     resolution: {integrity: sha512-ZCZaNN3uOsxHwe838cweo5h458gkf0Ocdw6hkmKr12NE8ejLkDclN7tOb3x+wv+wTcpnulV8OlEHfreQjCKVwA==}
@@ -1889,10 +1880,6 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  jarallax@2.2.0:
-    dependencies:
-      video-worker: 2.2.0
-
   js-yaml@4.1.0:
     dependencies:
       argparse: 2.0.1
@@ -2098,8 +2085,6 @@ snapshots:
   uri-js@4.4.1:
     dependencies:
       punycode: 2.3.1
-
-  video-worker@2.2.0: {}
 
   vite-plugin-vitepress-auto-sidebar@1.6.4(eslint@8.57.0)(typescript@5.4.5)(vite@5.2.10)(vitepress@1.1.3(@algolia/client-search@4.23.3)(postcss@8.4.38)(search-insights@2.13.0)(typescript@5.4.5)):
     dependencies:
