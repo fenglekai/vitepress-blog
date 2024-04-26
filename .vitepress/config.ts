@@ -1,21 +1,20 @@
 import { defineConfig } from "vitepress";
 import AutoSidebar from "vite-plugin-vitepress-auto-sidebar";
-import { FRONTEND_DEFAULT_PATH, ENVIRONMENT_DEFAULT_PATH } from "./constants";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "前端开发笔记",
   description: "A VitePress Site",
   lastUpdated: true,
-  base: '/vitepress-blog/',
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  base: "/vitepress-blog/",
+  head: [["link", { rel: "icon", href: "/vitepress-blog/favicon.ico" }]],
   themeConfig: {
     logo: "/logo.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "前端", link: FRONTEND_DEFAULT_PATH },
-      { text: "环境相关", link: ENVIRONMENT_DEFAULT_PATH },
+      { text: "前端", link: "/frontend/bit-operator" },
+      { text: "环境相关", link: "/environment/dbeaver-configuration" },
       { text: "Examples", link: "/examples/markdown-examples" },
     ],
 
@@ -40,9 +39,9 @@ export default defineConfig({
       next: "下一页",
     },
     footer: {
-      message: '基于 MIT 许可发布',
-      copyright: '© 2024 冯乐铠'
-    }
+      message: "基于 MIT 许可发布",
+      copyright: "© 2024 冯乐铠",
+    },
   },
   vite: {
     plugins: [
