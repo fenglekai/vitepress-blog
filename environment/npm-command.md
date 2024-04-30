@@ -1,4 +1,20 @@
-# npm配置
+# npm命令
+
+### 安装依赖
+
+```
+npm install
+// or
+npm i
+```
+
+### 从package-lock.json安装依赖
+
+```
+npm clean-install
+// or
+npm ci
+```
 
 ### npm代理设置
 
