@@ -19,7 +19,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/fenglekai/vitepress-blog" },
     ],
     lastUpdated: {
       text: "最后更新时间",
