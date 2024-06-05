@@ -34,5 +34,17 @@ features:
     details: px像素（Pixel），是相对于显示器屏幕分辨率而言的；em是相对长度单位。相对于当前对象内文本的字体尺寸；rem为元素设定字体大小时，仍然是相对大小，但相对的只是HTML根元素
   - title: OSI
     details: Open system interconnection，开放式系统互联参考模型，包括物理层、数据链路层、网络层、传输层、会话层、表示层、应用层
+  - title: MVC
+    details: Model-View-Controller，View 传送指令到 Controller；Controller 完成业务逻辑后，要求 Model 改变状态；Model 将新的数据发送到 View，用户得到反馈
+  - title: MVVM
+    details: Model–View–ViewModel，是一种 OOP 软件架构模式，它的核心是将我们的应用程序的逻辑与视图做分离，提升代码可维护性与应用健壮性
+  - title: OOP
+    details: Object Oriented Programming，面向对象编程，把对象作为程序的基本单元，一个对象包含了数据和操作数据的函数
+  - title: CSR
+    details: Client Side Rendering，客户端渲染，在渲染工作在客户端（浏览器）进行，而不是在服务器端进行
+  - title: SSR
+    details: Server Side Rendering，服务端渲染，与客户端渲染不同的是，SSR输出的是一个渲染完成的html，整个渲染过程是在服务器端进行的
+  - title: SSG
+    details: Static Side Generation，静态站点生成，构建的时候直接把结果页面输出html到磁盘，每次访问直接把html返回给客户端，相当于一个静态资源
 ---
 

@@ -112,3 +112,16 @@ sudo timedatectl set-timezone Asia/Shanghai
 sudo timedatectl set-local-rtc 1
 ```
 
+## 后台运行程序
+
+> java为例
+
+```shell
+# nohup运行
+nohup java -jar agent.jar > agent.log &
+# 查看后台任务
+jobs
+# 调用某个任务到命令行并Ctrl+C结束任务
+fg 1
+```
+
