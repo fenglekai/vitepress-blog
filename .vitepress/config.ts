@@ -15,7 +15,22 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "前端", link: "/frontend/bit-operator" },
       { text: "环境相关", link: "/environment/dbeaver-configuration" },
-      { text: "Examples", link: "/examples/markdown-examples" },
+      // { text: "Examples", link: "/examples/markdown-examples" },
+      {
+        text: "开源项目",
+        items: [
+          {
+            text: "Awesome Excel",
+            link: "https://github.com/fenglekai/awesome-excel",
+            target: "_black",
+          },
+          {
+            text: "Less Write",
+            link: "https://github.com/fenglekai/less-write",
+            target: "_black",
+          },
+        ],
+      },
     ],
 
     socialLinks: [
