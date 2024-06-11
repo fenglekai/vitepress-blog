@@ -46,5 +46,9 @@ features:
     details: Server Side Rendering，服务端渲染，与客户端渲染不同的是，SSR输出的是一个渲染完成的html，整个渲染过程是在服务器端进行的
   - title: SSG
     details: Static Side Generation，静态站点生成，构建的时候直接把结果页面输出html到磁盘，每次访问直接把html返回给客户端，相当于一个静态资源
+  - title: SPA
+    details: Single Page Application，单页面应用，控制整个页面，还负责处理抓取新数据，并在无需重新加载的前提下处理页面切换
+  - title: LRU
+    details: Least Recently Used，最近最少使用，缓存淘汰算法，如果数据最近被访问过，那么将来被访问的几率也更高
 ---
 
