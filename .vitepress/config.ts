@@ -7,7 +7,16 @@ export default defineConfig({
   description: "A VitePress Site",
   lastUpdated: true,
   base: "/vitepress-blog/",
-  head: [["link", { rel: "icon", href: "/vitepress-blog/favicon.ico" }]],
+  head: [
+    ["link", { rel: "icon", href: "/vitepress-blog/favicon.ico" }],
+    [
+      "meta",
+      {
+        name: "google-site-verification",
+        content: "0BHp5sFcMV4O-g2J4WQquAc2NoQ9i-x1k0svy35BvWY",
+      },
+    ],
+  ],
   themeConfig: {
     logo: "/logo.svg",
     // https://vitepress.dev/reference/default-theme-config
