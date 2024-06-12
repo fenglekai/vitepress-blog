@@ -3,8 +3,8 @@ import AutoSidebar from "vite-plugin-vitepress-auto-sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "前端开发笔记",
-  description: "A VitePress Site",
+  title: "KAI笔记",
+  description: "技术笔记,技术圈,程序员,前端,后端,小程序,安全,运维,软件开发,编程,javascript",
   lastUpdated: true,
   base: "/vitepress-blog/",
   head: [
@@ -77,4 +77,7 @@ export default defineConfig({
       }),
     ],
   },
+  sitemap: {
+    hostname: 'https://blog.devkai.site/vitepress-blog/'
+  }
 });
