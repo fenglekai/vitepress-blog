@@ -69,3 +69,25 @@ https://developers.google.com/speed/pagespeed/insights/
 提供给搜索引擎网站地图信息的协议，通过它可以告知搜索引擎关键path信息，类似网站的目录，可以手动配置，也可以使用生成器自动生成：https://www.xml-sitemaps.com/
 
 > 配置生成后放到网站根目录
+
+## VitePress
+
+在`.vitepress/config.ts`配置
+
+```typescript
+export default defineConfig({
+    title: 'title',
+    description: '技术笔记,技术圈,程序员,前端,后端,小程序,安全,运维,软件开发,编程,javascript',
+    sitemap: {
+        hostname: 'https://example.com'
+    }
+})
+```
+
+## Google 相关
+
+[Google Search Console](https://search.google.com/search-console) 谷歌的收录索引添加
+
+[Google Analytics ](https://analytics.google.com) 谷歌的分析工具，广告相关
+
+[Google Trends](https://trends.google.com/) 谷歌查看搜索趋势
