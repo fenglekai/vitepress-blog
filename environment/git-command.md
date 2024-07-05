@@ -126,17 +126,24 @@ git tag -a v1.0 commitkey
 git tag -d v1.0
 ```
 
-### 修改本地分支名
+## 修改本地分支名
 ```
 git branch -m <oldName> <newName>
 ```
 
-### 设置本地分支与远程分支关联
+## 设置本地分支与远程分支关联
 ```
 git branch --set-upstream-to=origin/<分支> main
 ```
 
-### 解决拒绝合并无关的历史
+## 解决拒绝合并无关的历史
 ```
 git pull origin <branch-name> --allow-unrelated-histories 
 ```
+
+## 合并特定commit到另一个分支
+
+```
+git cherry-pick <commit-id>
+```
+

@@ -32,3 +32,5 @@ rollup构建后出现node_modules依赖项@vue/runtime-dom，在ts转js后没有
 }
 ```
 
+### RollupError: Multiple conflicting contents for sourcemap source
+
