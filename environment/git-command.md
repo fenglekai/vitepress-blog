@@ -126,7 +126,28 @@ git tag -a v1.0 commitkey
 git tag -d v1.0
 ```
 
+### 推送单个标签
+
+```
+git push origin <tagname>
+```
+
+### 推送全部标签
+
+```
+git push --tags
+```
+
+### 原创已有同名标签，删除并推送
+
+```
+git push --delete origin <tagname>
+```
+
+
+
 ## 修改本地分支名
+
 ```
 git branch -m <oldName> <newName>
 ```
