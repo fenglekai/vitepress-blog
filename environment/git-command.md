@@ -59,11 +59,19 @@
 
 `git remote add <远程仓库名> <远程仓库地址>`
 
-## 回退版本操作
+## reset
+
+### 回退某次提交及之后的所有提交
 
 `git reset --hard <目标版本>`
 
-`git checkout (分支名)`
+### 只回退某次提交，其他保留在工作区和暂存区
+
+`git reset --sort`
+
+### 只回退某次提交，保留在工作区
+
+`git reset --mixed`
 
 ## 提交时不会生成新的提交
 
@@ -145,5 +153,22 @@ git pull origin <branch-name> --allow-unrelated-histories
 
 ```
 git cherry-pick <commit-id>
+```
+
+## error: 您尚未结束您的合并（存在 MERGE_HEAD）
+
+```
+git merge --abort
+git reset --merge
+```
+
+## 撤销某次提交/生成新的commit
+
+```
+git revert commit_id
+# 其他分支的commit
+git revert -m commit_id
+# 连续撤销多次
+git revert --no-commit commit1..commit2
 ```
 

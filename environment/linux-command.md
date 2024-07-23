@@ -14,7 +14,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo s
 
 ```
 1.更改目录所有者命令:
-chown -R 用户名称 目录名称
+chown -R 用户名称:用户组名称 目录名称
 2.更改目录权限命令:
 chmod -R 755 目录名称
 ```
