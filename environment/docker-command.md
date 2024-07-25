@@ -145,6 +145,17 @@ ENTRYPOINT 入口点
 
 
 
+## Docker compose常用指令
+
+```
+# 以后台模式建立compose
+docker-compose up -d
+# 停止compose并删除对应本地构建的镜像
+docker-compose down --rmi local
+```
+
+
+
 ## gitlab 迁移
 
 ### 数据备份
