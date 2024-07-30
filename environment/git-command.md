@@ -134,6 +134,12 @@ git tag -a v1.0 commitkey
 git tag -d v1.0
 ```
 
+### 删除远程标签
+
+```
+git push origin :v1.0
+```
+
 ### 推送单个标签
 
 ```
