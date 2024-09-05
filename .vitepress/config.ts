@@ -22,8 +22,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "前端", link: "/frontend/bit-operator" },
-      { text: "环境相关", link: "/environment/dbeaver-configuration" },
+      { text: "前端", link: "/frontend/index" },
+      { text: "命令配置", link: "/environment/index" },
+      { text: "闲言碎语", link: "/gossip/index" },
       // { text: "Examples", link: "/examples/markdown-examples" },
       {
         text: "开源项目",
@@ -73,6 +74,7 @@ export default defineConfig({
       AutoSidebar({
         path: "/",
         titleFromFile: true,
+        ignoreIndexItem: true,
         ignoreList: [".vscode", "public", "node_modules"],
       }),
     ],
