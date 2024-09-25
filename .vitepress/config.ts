@@ -39,6 +39,11 @@ export default defineConfig({
             link: "https://github.com/fenglekai/less-write",
             target: "_black",
           },
+          {
+            text: "Less Write Changelog",
+            link: "https://github.com/fenglekai/less-write-changelog",
+            target: "_black",
+          },
         ],
       },
     ],
