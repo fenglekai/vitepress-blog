@@ -7,15 +7,15 @@ hero:
   text: "零碎的前端知识"
   tagline: 希望可以帮助到你
   image:
-    src: /logo-large.webp
+    src: https://fenglekai.github.io/less-write/logo.jpeg
     alt: VitePress
   actions:
     - theme: brand
       text: 前端
       link: /frontend/bit-operator
     - theme: alt
-      text: 环境相关
-      link: /environment/dbeaver-configuration
+      text: 开源项目 Less Write
+      link: https://fenglekai.github.io/less-write/
 
 features:
   - title: CI/CD

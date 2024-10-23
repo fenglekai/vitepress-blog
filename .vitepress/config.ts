@@ -1,14 +1,20 @@
 import { defineConfig } from "vitepress";
 import AutoSidebar from "vite-plugin-vitepress-auto-sidebar";
+import Config from "less-write-vitepress-theme";
+import path from "path";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  extends: Config({
+    docRoot: path.resolve(".."),
+  }),
   title: "KAI笔记",
-  description: "技术笔记,技术圈,程序员,前端,后端,小程序,安全,运维,软件开发,编程,javascript",
+  description:
+    "技术笔记,技术圈,程序员,前端,后端,小程序,安全,运维,软件开发,编程,javascript",
   lastUpdated: true,
   base: "/vitepress-blog/",
   head: [
-    ["link", { rel: "icon", href: "/vitepress-blog/favicon.ico" }],
+    ["link", { rel: "icon", href: "https://fenglekai.github.io/less-write/favicon.ico" }],
     [
       "meta",
       {
@@ -18,7 +24,7 @@ export default defineConfig({
     ],
   ],
   themeConfig: {
-    logo: "/logo.svg",
+    logo: "https://fenglekai.github.io/less-write/logo.jpeg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
@@ -36,12 +42,17 @@ export default defineConfig({
           },
           {
             text: "Less Write",
-            link: "https://github.com/fenglekai/less-write",
+            link: "https://fenglekai.github.io/less-write/",
             target: "_black",
           },
           {
             text: "Less Write Changelog",
             link: "https://github.com/fenglekai/less-write-changelog",
+            target: "_black",
+          },
+          {
+            text: "Less Write Vitepress Theme",
+            link: "https://fenglekai.github.io/less-write-vitepress-theme/",
             target: "_black",
           },
         ],
@@ -85,6 +96,6 @@ export default defineConfig({
     ],
   },
   sitemap: {
-    hostname: 'https://blog.devkai.site/vitepress-blog/'
-  }
+    hostname: "https://blog.devkai.site/vitepress-blog/",
+  },
 });
