@@ -94,6 +94,7 @@ export default defineConfig({
         ignoreList: [".vscode", "public", "node_modules"],
       }),
     ],
+    ssr: { noExternal: ["less-write-vitepress-theme"] },
   },
   sitemap: {
     hostname: "https://blog.devkai.site/vitepress-blog/",
