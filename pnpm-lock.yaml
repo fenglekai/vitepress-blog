@@ -9,14 +9,11 @@ importers:
   .:
     dependencies:
       less-write-vitepress-theme:
-        specifier: ^1.0.2
-        version: 1.0.2(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.7.9)(postcss@8.4.47)(search-insights@2.13.0)(typescript@5.4.5))(vue@3.5.9(typescript@5.4.5))
+        specifier: ^1.0.4
+        version: 1.0.4(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.7.9)(postcss@8.4.47)(search-insights@2.13.0)(typescript@5.4.5))(vue@3.5.9(typescript@5.4.5))
       vite-plugin-vitepress-auto-sidebar:
         specifier: ^1.7.0
         version: 1.7.0(eslint@8.57.0)(typescript@5.4.5)(vite@5.4.8(@types/node@22.7.9))(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.7.9)(postcss@8.4.47)(search-insights@2.13.0)(typescript@5.4.5))
-      vue:
-        specifier: 3.5.9
-        version: 3.5.9(typescript@5.4.5)
     devDependencies:
       '@types/node':
         specifier: ^22.7.9
@@ -907,8 +904,8 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  less-write-vitepress-theme@1.0.2:
-    resolution: {integrity: sha512-Riz1ea3qdebnY/0Y7v9zFfXIMlziINMsoqoY73qFvD35rdnhlCspfpwwlotDuSCwDKxZZgo8LwWoTgA1iYeGDQ==}
+  less-write-vitepress-theme@1.0.4:
+    resolution: {integrity: sha512-g9p5C8qsF3V5E5nLZb4GImwRynPGFYROtY4ErXv4cn32SWD9Bl32uCgJHKaq+wK2hWU65jyy8K4fb35imko7aA==}
     peerDependencies:
       vitepress: ^1.4.1
       vue: ^3.5.12
@@ -2209,7 +2206,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  less-write-vitepress-theme@1.0.2(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.7.9)(postcss@8.4.47)(search-insights@2.13.0)(typescript@5.4.5))(vue@3.5.9(typescript@5.4.5)):
+  less-write-vitepress-theme@1.0.4(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.7.9)(postcss@8.4.47)(search-insights@2.13.0)(typescript@5.4.5))(vue@3.5.9(typescript@5.4.5)):
     dependencies:
       '@vueuse/core': 11.1.0(vue@3.5.9(typescript@5.4.5))
       consola: 3.2.3
