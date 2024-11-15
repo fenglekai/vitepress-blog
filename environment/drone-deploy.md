@@ -62,7 +62,7 @@ docker run \
 
 进入Server的UI界面，因为是与GitHub集成，所以在登录界面会跳转到GitHub去绑定账号
 
-![image-20241115105947081](/home/bobby/.config/Typora/typora-user-images/image-20241115105947081.png)
+![image-20241115105947081](https://raw.githubusercontent.com/fenglekai/image-bed/master/image-20241115105947081.png)
 
 
 
