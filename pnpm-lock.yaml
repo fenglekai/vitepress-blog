@@ -11,6 +11,9 @@ importers:
       less-write-vitepress-theme:
         specifier: ^1.0.4
         version: 1.0.4(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.7.9)(postcss@8.4.47)(search-insights@2.13.0)(typescript@5.4.5))(vue@3.5.9(typescript@5.4.5))
+      twikoo:
+        specifier: ^1.6.41
+        version: 1.6.41
       vite-plugin-vitepress-auto-sidebar:
         specifier: ^1.7.0
         version: 1.7.0(eslint@8.57.0)(typescript@5.4.5)(vite@5.4.8(@types/node@22.7.9))(vitepress@1.3.4(@algolia/client-search@4.24.0)(@types/node@22.7.9)(postcss@8.4.47)(search-insights@2.13.0)(typescript@5.4.5))
@@ -1177,6 +1180,9 @@ packages:
     engines: {node: '>= 6'}
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
+
+  twikoo@1.6.41:
+    resolution: {integrity: sha512-Hrp/fvk2N5oqin+9bkFVULstL+YMwQjn/vVL8r5FPIhyRBA0zWAgUri4hhCji4FsXegKR6+ihyMPTXBRENjnnA==}
 
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
@@ -2477,6 +2483,8 @@ snapshots:
     dependencies:
       tslib: 1.14.1
       typescript: 5.4.5
+
+  twikoo@1.6.41: {}
 
   type-check@0.4.0:
     dependencies:

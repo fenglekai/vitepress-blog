@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "less-write-vitepress-theme": "^1.0.4",
+    "twikoo": "^1.6.41",
     "vite-plugin-vitepress-auto-sidebar": "^1.7.0"
   }
 }
